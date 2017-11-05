@@ -1,0 +1,151 @@
+
+/* Header Section*/
+.header{
+  width: 960px;
+  height:50px;
+	margin: 0;
+  font-size: 24px;
+  text-align: left;
+ 	border:solid;
+  border-color:white;
+  background:white;
+  padding-top:20px;
+  padding-left:60px;
+  margin-left:55px;
+}
+
+.nav-link {
+  display:inline-block;
+  width:10%;
+  width:40px;
+  float:right;
+  font-size:14px;
+  padding-right:20px;
+  padding-bottom:60px;
+
+}
+
+.name {
+  position: absolute;
+  background-color: white;
+  float: left;
+  width: 150px;
+  height:50px;
+  color:white;
+  border-style: solid;
+  border-color:#33FFCE;
+  background-color:#33FFCE;
+  border-width: 1px;
+  padding-right: 10px;
+  padding-left:10px;
+}
+
+
+/* Left Box & Aside Box Formatting*/
+body{
+	font-family:arial;
+  font-size:14px;
+	background-color:#f2f2f2;
+ 
+}
+/* Left Box Section Section*/
+
+.article{
+	float:left;
+	width:550px;
+	height: auto;
+	color:grey;
+  background:white;
+  background-color:white;
+	font-size: 14px;
+	padding:20px;
+  margin-left: 110px;
+	margin-top:40px;
+	margin-bottom:60px;
+	
+}
+
+
+#main{
+	font-size: 28px;
+  font-weight:bold;
+  width:auto;
+	float:left;
+	color: #33FFCE;
+	border-color:white;
+	border-bottom-color:grey;
+}
+
+#aside{
+  width: auto;
+  font-family:arial;
+  font-size: 28px;
+  color: #grey;
+  margin-bottom:30px;
+  border-bottom-color:#33FFCE;
+}
+
+
+img {
+
+	float:left;
+	padding:10px;
+}
+
+.sidebar{
+  float:left;
+  height: auto;
+  width:220px;
+  color:grey;
+  background:white;
+  background-color:white;
+  font-size: 14px;
+  font-family:arial;
+  padding:20px;
+  margin-left: 100px;
+  margin-top:20px;
+  margin-bottom:50px;
+
+}
+
+#left-sidebar, #right-sidebar, #middle-sidebar {
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+
+}
+	  
+.container{
+  width: 150%;
+}
+
+.footer{
+	position:fixed;
+    left:0;
+    right:0;
+    bottom: 0;
+    padding:20px 0;
+    margin:20px;
+    font-size: 18px;
+	color:white;
+	background:grey;
+	border:solid;
+	border-style:thick;
+	border-color:grey;
+	border-top-color: #33FFCE;
+	border-top-width: 15px;
+	text-align: center;
+}
+
+@media screen and (max-width:768px) {
+ body {
+  background-color:lightblue;
+ }
+
+  .wrapper {
+    width: 100%
+    padding:20px;
+
+
+  }
+}
